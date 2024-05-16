@@ -57,7 +57,7 @@ h1{
     background-color: #04AA6D;
     color: white;
 }
-#container {
+.container {
     margin: 0 auto;
     padding: 1%;
 
@@ -71,7 +71,7 @@ h1{
     text-align: center;
 }
 
-#dual-container {
+.dual-container {
     height: 53%;
     display: flex;
     justify-content: space-between;
