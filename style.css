@@ -7,6 +7,7 @@ body{
 img{
     width: 580px;
     vertical-align: middle;
+    display: block;
 }
 pre{
     background-color: #1a1d20;
@@ -55,4 +56,23 @@ h1{
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+#container {
+    margin: 0 auto;
+    padding: 1%;
+
+    width: 100%;
+    height: 100%;
+}
+
+.dual-column {
+    width: 45%;
+    height: 90%;
+    text-align: center;
+}
+
+#dual-container {
+    height: 53%;
+    display: flex;
+    justify-content: space-between;
 }
